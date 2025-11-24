@@ -1,39 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Give | Assembly of God Church - Ruwanwella</title>
-  <link rel="stylesheet" href="give.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give & Support - Assembly of God Church, Ruwanwella</title>
+
+    <!-- Main site styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Page‑specific styles -->
+    <link rel="stylesheet" href="give.css">
+
+    <!-- Icons & Fonts (same as main page) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="resources/logo.jpg" alt="Church Logo">
+                </div>
 
+                <div class="logo-text">
+                    <h1>Assembly of <span>God</span></h1>
+                    <p>Ruwanwella, Sri Lanka</p>
+                </div>
+            </div>
 
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="hero-content">
-                    <h2>We give because God gave first!</h2>
-                    <p>Please contact Bro.Ruben to give to AOG Church Ruwanwella</p>
-                    <div class="hero-buttons">
-                <a href="index.html#give" class="btn">Go Back</a>
-                   </div>
-      </div>
+            <nav>
+                <ul>
+                    <!-- Links now point back to sections on the home page -->
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#story">Our Story</a></li>
+                    <li><a href="index.html#ministries">Ministries</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="events">Events</a></li>
+                    <li><a href="give.html" class="active">Give</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-      
-    </section>      
+    <main>
+        <!-- Give Hero Section -->
+        <section class="give-hero">
+            <div class="container">
+                <div class="give-hero-content">
+                    <p class="give-eyebrow">Giving & Generosity</p>
+                    <h1>Support the Ministry of Assembly of God Church, Ruwanwella</h1>
+                    <p>
+                        Your faithful giving helps us preach the Gospel, care for families, support our members,
+                        and build God’s house in Ruwanwella and beyond.
+                    </p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Ways to Give / Funds -->
+        <section class="give-section ways-to-give">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Where Your Gift Goes</h2>
+                    <p>
+                        Please choose a fund and use the fund name as your payment reference
+                        when you give via bank transfer or deposit.
+                    </p>
+                </div>
 
+                <div class="give-grid">
+                    <!-- Tithes & Offerings -->
+                    <div class="give-card" id="tithes">
+                        <div class="give-card-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3>Tithes & Offerings</h3>
+                        <p>
+                            Supports the day-to-day ministry of the church: worship services,
+                            discipleship, outreach, and pastoral care.
+                        </p>
+                        <ul>
+                            <li>Helps cover church utilities and ministry expenses</li>
+                            <li>Enables ongoing outreach and evangelism</li>
+                        </ul>
+                    </div>
 
-      
+                    <!-- Building Fund -->
+                    <div class="give-card" id="building-fund">
+                        <div class="give-card-icon">
+                            <i class="fas fa-church"></i>
+                        </div>
+                        <h3>Building Fund</h3>
+                        <p>
+                            Invest in the current church building and future developments in Ruwanwella.
+                        </p>
+                        <ul>
+                            <li>Supports construction, maintenance, and improvements</li>
+                            <li>Helps create a welcoming place of worship</li>
+                        </ul>
+                    </div>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Assembly of God Church - Ruwanwella. All Rights Reserved.</p>
+                    <!-- Members' Welfare -->
+                    <div class="give-card" id="welfare-fund">
+                        <div class="give-card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Members’ Welfare Fund</h3>
+                        <p>
+                            Assists church members and families in times of need, crisis, or emergency.
+                        </p>
+                        <ul>
+                            <li>Supports urgent needs</li>
+                            <li>Administered with pastoral oversight and accountability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practical Giving Details -->
+        <section class="give-section give-details">
+            <div class="container">
+                <div class="give-layout">
+                    <!-- Column: Bank Details -->
+                    <div class="give-column">
+                        <h3>Bank Transfer / Deposit</h3>
+                        <p>
+                            You can give directly through your bank (online transfer or cash deposit).
+                        </p>
+
+                        <div class="bank-card">
+                            <h4>For Bank Transfer / Deposit:</h4>
+                            <ul class="bank-list">
+                                <!-- Replace [placeholders] with your actual details -->
+                                <li><span>Please contact Pastor S. Ramakrishnan to get bank details and transfer/deposit your donations.</span></li>
+                                <ul>
+                                    <ul>
+                                        Pastor S. Ramakrishnan –
+                                        <a href="tel:+94786691867">+94 78 669 1867</a>
+                                    </ul>
+                                </ul>
+                                <p>
+                                    Email:
+                                    <a href="mailto:ramakrishnansharon17@gmail.com">
+                                        ramakrishnansharon17@gmail.com
+                                    </a>
+                                </p>
+                            </ul>
+                        </div>
+
+                        <div class="bank-card">
+                            <h4>Payment Reference</h4>
+                            <p>
+                                When you make a transfer, please add a note or reference so we know
+                                which fund you are giving to:
+                            </p>
+                            <ul>
+                                <li><strong>Tithes</strong> – “Tithes”</li>
+                                <li><strong>Offering</strong> – “Offering”</li>
+                                <li><strong>Building Fund</strong> – “Building Fund”</li>
+                                <li><strong>Welfare</strong> – “Welfare”</li>
+                            </ul>
+                            <p class="note">
+                                If you are giving to more than one fund in a single transfer,
+                                you can write a short description (e.g. “Tithes + Building”)
+                                and also inform the pastor or treasurer.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Column: Other Ways & Contact -->
+                    <div class="give-column">
+                        <h3>Other Ways to Give</h3>
+
+                        <div class="info-card">
+                            <h4>Give in Person</h4>
+                            <p>
+                                You can give during our worship service:
+                            </p>
+                            <ul>
+                                <li><strong>Sunday Worship:</strong> 8:00 AM – 10:00 AM</li>
+                            </ul>
+                            <p>
+                                Envelopes are available at the church if you would like to
+                                designate your gift to a specific fund.
+                            </p>
+                        </div>
+
+                        <div class="info-card">
+                            <h4>Need Help or Have Questions?</h4>
+                            <p>
+                                If you need any assistance with giving or would like more
+                                information, please contact:
+                            </p>
+                            <ul>
+                                <li>
+                                    Pastor S. Ramakrishnan –
+                                    <a href="tel:+94786691867">+94 78 669 1867</a>
+                                </li>
+                                <li>
+                                    Brother Prakash –
+                                    <a href="tel:+94786691867">+94 78 669 1867</a>
+                                </li>
+                            </ul>
+                            <p>
+                                Email:
+                                <a href="mailto:ramakrishnansharon17@gmail.com">
+                                    ramakrishnansharon17@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scripture / Encouragement -->
+        <section class="give-section scripture-section">
+            <div class="container">
+                <blockquote class="give-scripture">
+                    “Each of you should give what you have decided in your heart to give,
+                    not reluctantly or under compulsion, for God loves a cheerful giver.”
+                    <span>2 Corinthians 9:7</span>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2025 Assembly of God Church - Ruwanwella. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="page-navigation" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
     </div>
-  </footer>
 
+    <!-- Same script as main page (for mobile menu, back-to-top, etc.) -->
+    <script src="script.js"></script>
 </body>
 </html>

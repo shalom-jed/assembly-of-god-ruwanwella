@@ -417,6 +417,16 @@ section {
     margin-top: 40px;
 }
 
+.donation-methods a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.donation-methods a:hover {
+    text-decoration: underline;
+}
+
 .donation-card {
     background-color: white;
     border-radius: 10px;
@@ -444,6 +454,8 @@ section {
     padding: 15px;
     border-radius: 8px;
 }
+
+
 
 /* Contact Section */
 .contact {
