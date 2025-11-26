@@ -311,45 +311,20 @@ section {
     background-color: var(--light-gray);
 }
 
+/* Use a grid similar to donation-methods */
 .ministry-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin-top: 40px;
 }
 
-.ministry-card {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    transition: var(--transition);
+/* Make the whole card clickable, remove link styling */
+.ministry-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
-
-.ministry-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-}
-
-.ministry-icon {
-    background: var(--primary);
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    color: white;
-}
-
-.ministry-content {
-    padding: 25px;
-}
-
-.ministry-content h3 {
-    margin-top: 0;
-    color: var(--primary);
-}
-
 /* Service Times */
 .service-times {
 
@@ -423,9 +398,6 @@ section {
     font-weight: 500;
 }
 
-.donation-methods a:hover {
-    text-decoration: underline;
-}
 
 .donation-card {
     background-color: white;
