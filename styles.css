@@ -1,3 +1,12 @@
+/* Highlight page in the nav */
+nav ul li a.active {
+    color: var(--primary);
+}
+
+nav ul li a.active:after {
+    width: 100%;
+}
+
 :root {
     --primary: #000000;
     --secondary: #F05A28;
@@ -397,7 +406,6 @@ section {
     text-decoration: none;
     font-weight: 500;
 }
-
 
 .donation-card {
     background-color: white;

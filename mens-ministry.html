@@ -11,6 +11,16 @@
 
     <!-- Simple page-specific styling -->
     <style>
+
+        /* Highlight page in the nav */
+        nav ul li a.active {
+            color: var(--primary);
+        }
+
+        nav ul li a.active:after {
+            width: 100%;
+        }
+
         .ministry-hero {
             margin-top: 80px; /* space under fixed header */
             padding: 90px 0 70px;
@@ -86,10 +96,10 @@
                 <ul>
                     <li><a href="index.html#home">Home</a></li>
                     <li><a href="index.html#story">Our Story</a></li>
-                    <li><a href="index.html#ministries">Ministries</a></li>
+                    <li><a href="index.html#ministries" class="active">Ministries</a></li>
                     <li><a href="index.html#services">Services</a></li>
                     <li><a href="events">Events</a></li>
-                    <li><a href="give.html">Give</a></li>
+                    <li><a href="index.html#give">Give</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
