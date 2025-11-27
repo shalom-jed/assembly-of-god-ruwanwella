@@ -1,0 +1,120 @@
+/* Highlight "Events" as the current page */
+nav ul li a.active {
+    color: var(--primary);
+}
+
+nav ul li a.active:after {
+    width: 100%;
+}
+
+/* Events Hero */
+.events-hero {
+    background: linear-gradient(135deg, rgba(0,0,0,0.9), rgba(240,90,40,0.85));
+    color: #ffffff;
+    text-align: center;
+    padding: 160px 0 100px; /* extra top space for fixed header */
+}
+
+.events-hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.events-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.8);
+}
+
+.events-hero h1 {
+    color: #ffffff;
+    margin-bottom: 18px;
+    font-size: 2.6rem;
+}
+
+.events-hero p {
+    color: rgba(255,255,255,0.85);
+    font-size: 1rem;
+}
+
+/* Events Status Section */
+.events-status {
+    background-color: #fafafa;
+}
+
+/* Empty state card */
+.events-empty-card {
+    max-width: 650px;
+    margin: 30px auto 0;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+.events-empty-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+}
+
+.events-empty-icon i {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.events-empty-card h3 {
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+.events-empty-card p {
+    margin-bottom: 10px;
+    color: var(--gray);
+}
+
+.events-note {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+    .events-hero h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .events-hero {
+        padding: 140px 0 80px;
+    }
+
+    .events-hero h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .events-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .events-hero p {
+        font-size: 0.95rem;
+    }
+
+    .events-empty-card {
+        padding: 30px 20px;
+    }
+}
